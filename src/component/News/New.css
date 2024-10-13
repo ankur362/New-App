@@ -1,0 +1,90 @@
+.top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFF; 
+    color: #333333; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 10px 20px;
+    cursor: pointer;
+   
+}
+.topright:hover,.sec:hover,.first:hover {
+
+    color: #555555;
+}
+
+.topmiddle{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.search{
+    display: flex;
+    flex-direction: row;
+   gap: 5px;
+   align-items: center;
+   justify-content: center;
+}
+.topicon{
+   color: #666666
+}
+.topicon:hover {
+    color: #444444; 
+}
+.search input{
+    border-style: none;
+    border-bottom:1px solid #888888;
+    padding: 8px;
+}
+.search input:focus {
+    border-color: #6f42c1;
+        outline: none;
+   
+}
+.catbutton{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    align-self: center;
+    justify-content: center;
+    
+}
+.title h1{
+    margin-left: 60px;
+}
+
+.title:hover{
+    color: #555555;
+}
+.allbutton{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+ 
+   
+}
+.allbutton button{
+    font-size: 17px;
+    min-width: 80px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D76B30; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.allbutton button:hover {
+    background-color: #C05B28;
+}
